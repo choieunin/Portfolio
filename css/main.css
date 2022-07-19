@@ -1,0 +1,51 @@
+body {
+    background-color: white;
+    padding-top: 75px;
+}
+
+header {
+    height: 70px;
+    border: 1px;
+    background-color: #ff6600;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+}
+
+h1 {
+    color: white;
+    line-height: 70px;
+    float: left;
+}
+
+.menu {
+    float: right;
+}
+
+ul {
+    list-style: none;
+}
+
+.menu a {
+    line-height: 70px;
+    color: white;
+    padding: 0 15px;
+    display: block;
+}
+
+.menu li {
+    float: left;
+}
+
+.wrapper {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.clearfix {
+    content: '';
+    display: block;
+    clear: both;
+}
