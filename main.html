@@ -13,16 +13,18 @@
         src="https://kit.fontawesome.com/17e348af8e.js" crossorigin="anonymous">
     </script>
     <script defer src="main.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+
 </head>
 <body>
     <nav class="navbar">
         <a href="main.html">Portfolio</a>
 
         <ul class="navbar__menu">
-            <li><a href="main.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="work.html">Work</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#home" id="scroll_move">Home</a></li>
+            <li><a href="#about" id="scroll_move">About</a></li>
+            <li><a href="#work" id="scroll_move">Work</a></li>
+            <li><a href="#contact" id="scroll_move">Contact</a></li>
         </ul>
 
         <ul class="navbar__icons">
@@ -35,9 +37,18 @@
         </a>
     </nav>
 
-    <div class="content_main">
-        front-end<br>developer.<br>Now I'm moving forward to become an enginner.
-        <img src="MyImage.jpeg" alt="My Image">
-    </div>
+    <nav id="home">
+        <div class="content_main">
+            front-end<br>developer.<br>Now I'm moving forward to become an enginner.
+            <img src="MyImage.jpeg" alt="My Image">
+        </div>
+    </nav>
+    <nav id="about"></nav>
+    <nav id="work">
+        <div>
+            <a href="/slide/slide.html">Work</a>
+        </div>
+    </nav>
+    <nav id="contact"></nav>
 </body>
 </html>
