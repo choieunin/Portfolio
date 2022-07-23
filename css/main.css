@@ -98,3 +98,7 @@ img {
     width: 360px;
     height: auto;
 }
+
+html {
+    scroll-behavior: smooth;
+}
