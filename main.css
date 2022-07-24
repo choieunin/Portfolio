@@ -94,6 +94,24 @@ html {
     scroll-behavior: smooth;
 }
 
+img {
+    max-width: 100%;
+}
+
+.img {
+    width: 400px;
+    margin: 0px auto;
+}
+
+#explain {
+    position: absolute;;
+    opacity: 0;
+}
+
+.img:hover #explain {
+    opacity: 1;
+}
+
 /* textarea {
     margin-left: 300px;
     float: left;
