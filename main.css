@@ -96,6 +96,7 @@ html {
 
 img {
     max-width: 100%;
+    opacity: 1;
 }
 
 .img {
@@ -112,7 +113,12 @@ img {
     opacity: 1;
 }
 
-/* textarea {
+/* mouser hover시 opacity 지정하면 흐려짐 */
+img:hover {
+    opacity: 0.5;
+}
+
+textarea {
     margin-left: 300px;
     float: left;
     width: 300px;
@@ -122,4 +128,4 @@ img {
 
 form {
     width: auto;
-} */
+}
