@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link href="css/main.css" rel ="stylesheet">
+    <link href="main.css" rel ="stylesheet">
     <link href="slide/slide.css" rel ="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,11 +15,10 @@
     </script>
     <script defer src="main.js"></script>
     <script defer src="slide/slide.js"></script>
-    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
 
 </head>
 <body>
-    <nav class="navbar">
+    <nav class="navbar"> //상단바 메뉴
         <a href="main.html">Portfolio</a>
 
         <ul class="navbar__menu">
@@ -43,11 +42,9 @@
         </a>
     </nav>
 
-    <nav id="home">
-        <div class="content_main">
-            front-end<br>developer.<br>Now I'm moving forward to become an enginner.
-        </div>
-    </nav>
+    <input type="hidden" id="typing-txt" value="안녕하세요. 프론트엔드 개발자 최은인입니다.">
+    <h1 id="typing"></h1>
+
     <nav id="about"></nav>
     <nav id="work">
         <div class="slide_wrap">
