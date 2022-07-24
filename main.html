@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <link href="main.css" rel ="stylesheet">
-    <link href="slide/slide.css" rel ="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
@@ -14,12 +13,11 @@
         src="https://kit.fontawesome.com/17e348af8e.js" crossorigin="anonymous">
     </script>
     <script defer src="main.js"></script>
-    <script defer src="slide/slide.js"></script>
 
 </head>
 <body>
-    <nav class="navbar"> //상단바 메뉴
-        <a href="main.html">Portfolio</a>
+    <nav class="navbar">
+        <a href="main.html">EUNIN CHOI</a>
 
         <ul class="navbar__menu">
             <li><a href="#home" id="scroll_move">Home</a></li>
@@ -42,24 +40,16 @@
         </a>
     </nav>
 
-    <input type="hidden" id="typing-txt" value="안녕하세요. 프론트엔드 개발자 최은인입니다.">
-    <h1 id="typing"></h1>
-
-    <nav id="about"></nav>
-    <nav id="work">
-        <div class="slide_wrap">
-            <div class="slide_item">1</div>
-            <div class="slide_item">2</div>
-            <div class="slide_item">3</div>
-            <div class="slide_item">4</div>
-            <div class="slide_item">5</div>
-            <div class="slide_prev_button slide_button"></div>
-            <div class="slide_next_button slide_button"></div>
-            <ul class="slide_pagination"></ul>
+    <nav id="home">
+        <div class="text_box">
+            <span class="text"></span>
         </div>
     </nav>
+
+    <nav id="about"></nav>
+    <nav id="work"></nav>
     <nav id="contact">
-        <div>
+        <!-- <div>
             <textarea onclick="this.value=''">
                 방명록을 남겨주세요!
             </textarea>
@@ -68,8 +58,7 @@
                 Password : <input id="userpwd" type="password" maxlength="6"/>
                 <input type="submit" value="로그인">
             </form>
-            <img src="MyImage.jpeg" alt="My Image">
-        </div>
+        </div> -->
     </nav>
 </body>
 </html>
